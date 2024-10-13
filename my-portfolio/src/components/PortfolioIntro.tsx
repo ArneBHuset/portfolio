@@ -8,37 +8,39 @@ export default function PortfolioIntro() {
       maxWidth="md"
       display="flex"
       justifyContent="center"
-      textAlign="center"
-      sx={{ marginTop: "2rem", padding: "2rem" }}
+      p={2}
+      mx="auto"
+      sx={{ marginTop: "2rem" }}
     >
-      <Grid size={12}>
-        <Typography variant="h3" component="h1">
-          ARNE
-        </Typography>
+      <Grid size={12} textAlign="center">
+        <Typography variant="h3">ARNE BJELDE HUSTVEIT</Typography>
       </Grid>
       <Grid size={12}>
-        <Typography variant="h4" component="h2">
+        <Typography variant="h5" textAlign="center" my={1}>
           WELCOME TO MY PORTFOLIO
         </Typography>
       </Grid>
       <Grid size={12}>
         <Typography
-          variant="body1"
-          sx={{ marginTop: "1rem", textAlign: "left", maxWidth: "500px" }}
+          variant="h6"
+          height="250px"
+          sx={{ marginTop: "1rem", maxWidth: "600px" }}
+          display="flex"
+          justifyContent="center"
+          mx={"auto"}
         >
-          I’m currently studying UX design and frontend development, with a
-          passion for creating intuitive and engaging user experiences. My skill
-          set includes modern technologies such as TypeScript, JavaScript, MUI,
-          React, HTML, CSS, SCSS, YUP, and C# and MudBlazor. I enjoy working on
-          projects that combine my design knowledge with technical expertise,
-          allowing me to craft solutions that are not only functional but also
-          visually appealing.
+          A UX design and frontend development student, with a passion for
+          creating intuitive and engaging user experiences. My skill set
+          includes modern technologies such as TypeScript, JavaScript, MUI,
+          React, HTML, CSS, SCSS, C# and MudBlazor. I enjoy working on projects
+          that combine my design knowledge with technical expertise.
         </Typography>
       </Grid>
       <Grid
         size={12}
         sx={{
-          marginTop: "2rem",
+          marginY: "1rem",
+          pt: { xs: 4, sm: 0 },
           display: "flex",
           gap: "1rem",
           justifyContent: "center",
@@ -50,10 +52,11 @@ export default function PortfolioIntro() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Portfolio
+          Full Portfolio
         </Button>
         <Button
           variant="contained"
+          size="large"
           href="https://www.linkedin.com/in/arne-bjelde-hustveit-48ab31276/"
           target="_blank"
           rel="noopener noreferrer"

@@ -10,22 +10,35 @@ function App() {
     <Container
       maxWidth="lg"
       sx={{
-        display: "flex",
-        justifyContent: "center",
         height: "100vh",
+        p: 0,
+        marginX: "auto",
       }}
     >
-      <Grid container spacing={1} mx="auto">
+      <Grid container spacing={1}>
         <Grid size={12} display="flex" justifyContent="center">
           <PortfolioIntro />
         </Grid>
-        <Grid size={4}>
+        <Grid
+          size={{ xs: 12, sm: 6, md: 4 }}
+          display="flex"
+          justifyContent="center"
+        >
           <AuctionableCard />
         </Grid>
-        <Grid size={4}>
+        <Grid
+          size={{ xs: 12, sm: 6, md: 4 }}
+          display="flex"
+          justifyContent="center"
+        >
           <HolidazeCard />
         </Grid>
-        <Grid size={4}>
+        <Grid
+          size={{ xs: 12, sm: 6, md: 4 }}
+          display="flex"
+          justifyContent="center"
+          mb={4}
+        >
           <FlashFindsCard />
         </Grid>
       </Grid>

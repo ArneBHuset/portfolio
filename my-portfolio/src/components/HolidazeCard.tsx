@@ -15,17 +15,34 @@ export default function HolidazeCard() {
         title="green iguana"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography
+          gutterBottom
+          variant="h5"
+          textTransform="uppercase"
+          component="div"
+        >
           Holidaze
         </Typography>
-        <Typography variant="body2" sx={{ color: "text.secondary" }}>
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        <Typography
+          variant="body1"
+          height="250px"
+          sx={{ color: "text.secondary" }}
+        >
+          Holidaze is a modern website that allows users to book venues and
+          villas worldwide. The platform serves both customers, who want to book
+          venues, and see upcoming bookings, and venue managers, who can list,
+          manage, and edit their venues and bookings. This project was developed
+          as part of the Noroff Project Exam 2, using React, TypeScript, and
+          Material UI.
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button size="small" href="https://main--flashfinds.netlify.app/">
+          Github repo
+        </Button>
+        <Button size="small" href="https://findmyholidaze.netlify.app/">
+          Live site
+        </Button>
       </CardActions>
     </Card>
   );

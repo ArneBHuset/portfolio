@@ -1,4 +1,3 @@
-import * as React from "react";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -15,17 +14,36 @@ export default function AuctionableCard() {
         title="green iguana"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography
+          gutterBottom
+          variant="h5"
+          textTransform="uppercase"
+          component="div"
+        >
           Auctionable
         </Typography>
-        <Typography variant="body2" sx={{ color: "text.secondary" }}>
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        <Typography
+          variant="body1"
+          sx={{ color: "text.secondary" }}
+          height="250px"
+        >
+          This project is an auction website designed to allow users to post
+          items for auction and bid on others' items. Utilizing modern web
+          technologies, this front-end application provides a seamless user
+          experience for auction activities. The project was developed using
+          JavaScript, Tailwind CSS, SCSS and PostCSS
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button
+          size="small"
+          href="https://github.com/ArneBHuset/ArneBHuset.github.io"
+        >
+          Github repo
+        </Button>
+        <Button size="small" href="https://arnebhuset.github.io/">
+          Live site
+        </Button>
       </CardActions>
     </Card>
   );
