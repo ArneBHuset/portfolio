@@ -45,10 +45,10 @@ export default function PortfolioIntro() {
             justifyContent="center"
             mx={"auto"}
           >
-            As a UX design and frontend development student, i am learning to
-            create intuitive and engaging user experiences. My skill set
-            includes modern technologies such as TypeScript, JavaScript, MUI,
-            React, HTML, CSS, SCSS, C# and MudBlazor. I enjoy working on
+            As a UX-design and frontend development student, i am currently
+            learning to create intuitive and engaging user experiences. My skill
+            set includes modern technologies such as TypeScript, JavaScript,
+            MUI, React, HTML, CSS, SCSS, C# and MudBlazor. I enjoy working on
             projects that combine my design knowledge with technical expertise.
           </Typography>
         </Grid>

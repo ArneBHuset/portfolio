@@ -29,10 +29,10 @@ export default function FlashFindsCard() {
             height="250px"
             sx={{ color: "text.secondary" }}
           >
-            eCOM Website Project eCOM website project for the JS-framework
-            course by Noroff, focusing on React. This project aims to create an
+            This e-commerce website is a project for the JS-framework course by
+            Noroff, focusing on React. The project aims at creating an
             e-commerce store where users can browse products, add them to their
-            cart, and check out. The project is build using React, TypeScript,
+            cart, and check out. The project was built using React, TypeScript,
             and Material UI.
           </Typography>
         </CardContent>
