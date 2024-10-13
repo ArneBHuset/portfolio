@@ -33,18 +33,18 @@ export default function AuctionableCard() {
             items for auction and bid on others' items. Utilizing modern web
             technologies, this front-end application provides a seamless user
             experience for auction activities. The project was developed using
-            JavaScript, Tailwind CSS, SCSS and PostCSS
+            JavaScript, Tailwind CSS, SCSS and PostCSS.
           </Typography>
         </CardContent>
         <CardActions>
           <Button
-            size="small"
+            size="large"
             href="https://github.com/ArneBHuset/ArneBHuset.github.io"
           >
             Github repo
           </Button>
-          <Button size="small" href="https://arnebhuset.github.io/">
-            Live site
+          <Button size="large" href="https://arnebhuset.github.io/">
+            Live website
           </Button>
         </CardActions>
       </Card>

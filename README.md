@@ -1,11 +1,16 @@
-- 👋 Hi, I’m Arne. Weclome to my portfolio page
+- 👋 Hi, I’m Arne
 - 👀 I’m interested in the intersection between frontend development and UX-design.
-- 🌱 I’m currently learning TypeScript, React, Material UI, Python, SQL, AI aswell as UX- design, methodologies and research.
-- 🎓 Studying interaction design at the University of Bergen 2022-2025 | Frontend development at Noroff School of Technology 2023 - 2024
+- 🌱 I’m currently learning TypeScript, React, Material UI, Python, SQL, AI aswell as UX- design, including methodologies and research
+- 🎓 Currently studying interaction design at the University of Bergen 2022-2025 | Frontend development at Noroff School of Technology 2023 - 2024
 
-- 📫 How to reach me ...
-  [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/arne-bjelde-hustveit-48ab31276/)
-  [<img src="https://img.shields.io/badge/Portfolio-%23000000.svg?&style=for-the-badge">](https://arnehustveit.myportfolio.com/)
+- 📫 Find me on Linkedin
+- [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/arne-bjelde-hustveit-48ab31276/)
+- 💻 Or look at my work
+- [<img src="https://img.shields.io/badge/Portfolio-%23000000.svg?&style=for-the-badge">](https://arnehustveit.myportfolio.com/)
+
+### Live website
+
+[Netlify link](https://arneportfoliopage.netlify.app)
 
 ### Languages and Tools:
 

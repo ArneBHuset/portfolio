@@ -38,11 +38,14 @@ export default function HolidazeCard() {
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small" href="https://main--flashfinds.netlify.app/">
+          <Button
+            size="large"
+            href="https://github.com/ArneBHuset/holidaze-examproject"
+          >
             Github repo
           </Button>
-          <Button size="small" href="https://findmyholidaze.netlify.app/">
-            Live site
+          <Button size="large" href="https://findmyholidaze.netlify.app/">
+            Live website
           </Button>
         </CardActions>
       </Card>

@@ -10,15 +10,29 @@ export default function PortfolioIntro() {
         maxWidth="md"
         display="flex"
         justifyContent="center"
-        p={2}
+        border={"1px solid black"}
+        borderRadius={4}
+        p={1}
         mx="auto"
         sx={{ marginTop: "2rem" }}
       >
         <Grid size={12} textAlign="center">
-          <Typography variant="h3">ARNE BJELDE HUSTVEIT</Typography>
+          <Typography variant="h3" mr={{ xs: 0, sm: 8 }}>
+            ARNE BJELDE HUSTVEIT
+          </Typography>
         </Grid>
         <Grid size={12}>
-          <Typography variant="h5" textAlign="center" my={1}>
+          <Typography
+            variant="h5"
+            textAlign="left"
+            mx="auto"
+            my={1}
+            sx={{
+              marginTop: "2rem",
+              maxWidth: "600px",
+              textDecoration: "underline",
+            }}
+          >
             WELCOME TO MY PORTFOLIO
           </Typography>
         </Grid>
@@ -31,8 +45,8 @@ export default function PortfolioIntro() {
             justifyContent="center"
             mx={"auto"}
           >
-            A UX design and frontend development student, with a passion for
-            creating intuitive and engaging user experiences. My skill set
+            As a UX design and frontend development student, i am learning to
+            create intuitive and engaging user experiences. My skill set
             includes modern technologies such as TypeScript, JavaScript, MUI,
             React, HTML, CSS, SCSS, C# and MudBlazor. I enjoy working on
             projects that combine my design knowledge with technical expertise.
@@ -40,18 +54,21 @@ export default function PortfolioIntro() {
         </Grid>
         <Grid
           size={12}
+          px={{ xs: 0, sm: 16 }}
+          marginTop={{ xs: "2rem", sm: "0rem" }}
+          pb={2}
           sx={{
-            marginY: "1rem",
             pt: { xs: 4, sm: 0 },
             display: "flex",
-            gap: "1rem",
-            justifyContent: "center",
+            gap: 1,
+            justifyContent: "space-evenly",
           }}
         >
           <Button
             variant="contained"
             href="https://arnehustveit.myportfolio.com/"
             target="_blank"
+            fullWidth
             rel="noopener noreferrer"
           >
             Full Portfolio
@@ -59,6 +76,7 @@ export default function PortfolioIntro() {
           <Button
             variant="contained"
             size="large"
+            fullWidth
             href="https://www.linkedin.com/in/arne-bjelde-hustveit-48ab31276/"
             target="_blank"
             rel="noopener noreferrer"
@@ -67,6 +85,7 @@ export default function PortfolioIntro() {
           </Button>
           <Button
             variant="contained"
+            fullWidth
             href="https://github.com/ArneBHuset"
             target="_blank"
             rel="noopener noreferrer"

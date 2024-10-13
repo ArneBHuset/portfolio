@@ -32,17 +32,18 @@ export default function FlashFindsCard() {
             eCOM Website Project eCOM website project for the JS-framework
             course by Noroff, focusing on React. This project aims to create an
             e-commerce store where users can browse products, add them to their
-            cart, and check out.
+            cart, and check out. The project is build using React, TypeScript,
+            and Material UI.
           </Typography>
         </CardContent>
         <CardActions>
           <Button
-            size="small"
+            size="large"
             href="https://github.com/ArneBHuset/ecom-website"
           >
             Github repo
           </Button>
-          <Button size="small" href="https://main--flashfinds.netlify.app/">
+          <Button size="large" href="https://main--flashfinds.netlify.app/">
             Live website
           </Button>
         </CardActions>
